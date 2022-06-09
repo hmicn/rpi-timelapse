@@ -1,0 +1,1 @@
+echo '* * * * * python take.py >> /var/www/html/logs/log.txt' > crontab.txt && crontab crontab.txt

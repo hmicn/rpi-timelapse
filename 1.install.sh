@@ -1,3 +1,6 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install python3-pip
 sudo apt install h5py
 sudo apt-get install python3-h5py
 sudo apt install libopenjp2-7
@@ -13,4 +16,6 @@ mkdir /var/www/html/images
 mkdir /var/www/html/logs
 sudo chmod -R 777 /var/www/html/
 
-echo '* * * * * python take.py >> /var/www/html/logs/log.txt' > crontab.txt && crontab crontab.txt
+wget https://raw.githubusercontent.com/hmicn/rpi-timelapse/main/take.py
+
+# http://tplinkrepeater.net/

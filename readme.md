@@ -1,0 +1,1 @@
+wget https://raw.githubusercontent.com/hmicn/rpi-timelapse/main/1.install.sh
